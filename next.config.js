@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 /* eslint-disable @typescript-eslint/no-var-requires */
 const nextConfig = {
-  output: 'standalone',
+  // output: 'standalone', // Disabled for Windows development and Cloudflare Pages
   eslint: {
     dirs: ['src'],
   },
